@@ -16,8 +16,8 @@ def get_username():
     return user_info.get("user")
 
 
-st.write("_get_websocket_headers().get(Rstudio-Connect-Credentials): " + str(_get_websocket_headers().get("Rstudio-Connect-Credentials")))
 st.write("_get_websocket_headers(): " + str(_get_websocket_headers()))
-st.write("User info: " + str(get_user_info()))
-st.write("Username: " + str(get_username()))
+st.write("_get_websocket_headers().get(Rstudio-Connect-Credentials): user info before json loads" + str(_get_websocket_headers().get("Rstudio-Connect-Credentials")))
+st.write("get_user_info(): after json loads:" + str(get_user_info()))
+st.write("Username: get(user)" + str(get_username()))
          
